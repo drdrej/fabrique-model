@@ -37,7 +37,7 @@ QueryManager.prototype.next = function( ) {
     var lastIdx = (this.queries.length - 1);
 
     if( lastIdx >= this.cursor ) {
-        var rval = this.queries[ lastIdx ];
+        var rval = this.queries[ this.cursor ];
 
         if( rval == null || rval == undefined )
             return false;

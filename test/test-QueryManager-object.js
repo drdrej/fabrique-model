@@ -59,5 +59,36 @@ describe(
 
 
                     });
+
+                it(
+                    'QueryManager has two elements',
+
+                    function() {
+                        var queries = [];
+
+                        queries.push( createQueryDef( "query1" , ".test > .hello" ) );
+                        queries.push( createQueryDef( "query2" , ".test > .hello2" ) );
+
+                        var manager = new QueryManager( queries );
+                        assert.equal( true, (manager != undefined));
+
+                        var first = manager.next();
+                        assert.equal( true, (first != undefined));
+                        assert.equal( "query1", first.name );
+                        assert.equal( ".test > .hello", first.ql );
+                        assert.equal( 1, manager.cursor );
+
+                        var second = manager.next();
+                        assert.equal( true, (second != undefined));
+                        assert.equal( "query2", second.name );
+                        assert.equal( ".test > .hello2", second.ql );
+                        assert.equal( 2, manager.cursor );
+
+                        var noMore = manager.next();
+                        assert.equal( false, noMore );
+                        assert.equal( 2, manager.cursor );
+
+
+                    });
             });
     });

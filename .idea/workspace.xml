@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-QueryManager-object.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\query\QueryDef.js" afterPath="$PROJECT_DIR$/impl/query/QueryDefinition.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\query\QueryDefManager.js" afterPath="$PROJECT_DIR$/impl/query/QueryManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-Query-object.js" afterPath="$PROJECT_DIR$/test/test-Query-object.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/query/QueryManager.js" afterPath="$PROJECT_DIR$/impl/query/QueryManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-QueryManager-object.js" afterPath="$PROJECT_DIR$/test/test-QueryManager-object.js" />
     </list>
     <ignored path="fabrique-model.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,9 +20,9 @@
     <file path="/query-use.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367272465686" ignored="false" />
     <file path="/Query.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367331362715" ignored="false" />
     <file path="/test-Query-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367333433124" ignored="false" />
-    <file path="/fragment.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367335015983" ignored="false" />
-    <file path="/QueryManager.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367335602344" ignored="false" />
-    <file path="/test-QueryManager-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367334667126" ignored="false" />
+    <file path="/fragment.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367336235766" ignored="false" />
+    <file path="/QueryManager.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367336285845" ignored="false" />
+    <file path="/test-QueryManager-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367336098337" ignored="false" />
     <file path="/QueryDefinition.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367334178323" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryManager.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/impl/query/QueryManager.js">
+      <file leaf-file-name="test-QueryManager-object.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="20" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.4918478">
+            <state line="88" column="39" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.74923545">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -79,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-QueryManager-object.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
+      <file leaf-file-name="QueryManager.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/query/QueryManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="48" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0">
+            <state line="44" column="58" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -144,8 +141,8 @@
         <option value="$PROJECT_DIR$/impl/query/Query.js" />
         <option value="$PROJECT_DIR$/test/test-Query-object.js" />
         <option value="$PROJECT_DIR$/impl/query/QueryDefinition.js" />
-        <option value="$PROJECT_DIR$/test/test-QueryManager-object.js" />
         <option value="$PROJECT_DIR$/impl/query/QueryManager.js" />
+        <option value="$PROJECT_DIR$/test/test-QueryManager-object.js" />
       </list>
     </option>
   </component>
@@ -324,11 +321,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981302" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981302" sideWeight="0.6003401" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -401,16 +398,21 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/test-QueryManager-object.js</url>
-          <line>40</line>
-          <option name="timeStamp" value="4" />
+          <line>80</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/test-QueryManager-object.js</url>
-          <line>43</line>
-          <option name="timeStamp" value="6" />
+          <line>66</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/test-QueryManager-object.js</url>
+          <line>74</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -503,15 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-Query-object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1115" selection-end="1147" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/query/QueryDefinition.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
@@ -521,25 +514,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
+    <entry file="file://$PROJECT_DIR$/test/test-Query-object.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="0" selection-start="4283" selection-end="4283" vertical-scroll-proportion="0.6360856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="48" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0">
+        <state line="24" column="0" selection-start="1115" selection-end="1147" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="47" selection-start="4265" selection-end="4265" vertical-scroll-proportion="0.48012233">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/impl/query/QueryManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="20" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.4918478">
+        <state line="44" column="58" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="39" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.74923545">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
