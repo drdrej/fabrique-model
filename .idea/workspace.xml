@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/query/QueryDef.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/query/QueryDefManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/query/Stack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/query/query-call-by-result.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/query/query-use.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-Query-object.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\query\query.js" afterPath="$PROJECT_DIR$/impl/query/Query.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/query/query-render.js" afterPath="$PROJECT_DIR$/impl/query/query-render.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-query-json-select.js" afterPath="$PROJECT_DIR$/test/test-query-json-select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-query-render.js" afterPath="$PROJECT_DIR$/test/test-query-render.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-QueryManager-object.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\query\QueryDef.js" afterPath="$PROJECT_DIR$/impl/query/QueryDefinition.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\query\QueryDefManager.js" afterPath="$PROJECT_DIR$/impl/query/QueryManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-Query-object.js" afterPath="$PROJECT_DIR$/test/test-Query-object.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-model.iws" />
@@ -30,8 +22,11 @@
     <file path="/query-call-by-result.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367272075337" ignored="false" />
     <file path="/query-use.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367272465686" ignored="false" />
     <file path="/Query.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367331362715" ignored="false" />
-    <file path="/test-Query-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367328955580" ignored="false" />
-    <file path="/fragment.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367331831497" ignored="false" />
+    <file path="/test-Query-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367333433124" ignored="false" />
+    <file path="/fragment.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367335015983" ignored="false" />
+    <file path="/QueryManager.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367335602344" ignored="false" />
+    <file path="/test-QueryManager-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367334667126" ignored="false" />
+    <file path="/QueryDefinition.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367334178323" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,42 +46,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Query.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Query.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/query/Query.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="77" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.7038044">
+            <state line="0" column="0" selection-start="0" selection-end="1114" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-query-json-select.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-query-json-select.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1776" selection-end="1863" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryDefManager.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/query/QueryDefManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryDef.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/query/QueryDef.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -94,7 +60,51 @@
       <file leaf-file-name="test-Query-object.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test-Query-object.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="28" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0">
+            <state line="24" column="0" selection-start="1115" selection-end="1147" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryManager.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/impl/query/QueryManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="20" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.4918478">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-QueryManager-object.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="48" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryDefinition.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/query/QueryDefinition.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-Model.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test-Model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="1108" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -120,9 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/test-Model.js" />
-        <option value="$PROJECT_DIR$/impl/model/Model.js" />
-        <option value="$PROJECT_DIR$/impl/query/query-json-select.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/test-query-render.js" />
         <option value="$PROJECT_DIR$/test/test-query-json-select.js" />
@@ -134,8 +141,11 @@
         <option value="$PROJECT_DIR$/impl/query/Stack.js" />
         <option value="$PROJECT_DIR$/impl/query/QueryDefManager.js" />
         <option value="$PROJECT_DIR$/impl/query/QueryDef.js" />
-        <option value="$PROJECT_DIR$/test/test-Query-object.js" />
         <option value="$PROJECT_DIR$/impl/query/Query.js" />
+        <option value="$PROJECT_DIR$/test/test-Query-object.js" />
+        <option value="$PROJECT_DIR$/impl/query/QueryDefinition.js" />
+        <option value="$PROJECT_DIR$/test/test-QueryManager-object.js" />
+        <option value="$PROJECT_DIR$/impl/query/QueryManager.js" />
       </list>
     </option>
   </component>
@@ -260,13 +270,20 @@
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\query" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.mocha - test-Query-object.js">
+  <component name="RunManager" selected="Node.js.mocha - test-QueryManager-object.js">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
       <option name="filePath" />
       <option name="scope" value="ALL" />
       <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/bin/_mocha" application-parameters="test/test-Query-object" working-dir="$PROJECT_DIR$">
@@ -279,8 +296,16 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="mocha - test-QueryManager-object.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/bin/_mocha" application-parameters="test/test-QueryManager-object.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.mocha - test-Query-object.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.mocha - test-QueryManager-object.js" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -373,24 +398,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/test-QueryManager-object.js</url>
+          <line>40</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/test-QueryManager-object.js</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="691" selection-end="691" vertical-scroll-proportion="0.619403">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/model/Model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="64" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.3024911">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/query/query-json-select.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="23" selection-start="1138" selection-end="1150" vertical-scroll-proportion="0.7259787">
@@ -406,13 +429,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-Model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="44" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.78647685">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -460,23 +476,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/query/QueryDefManager.js">
+    <entry file="file://$PROJECT_DIR$/impl/query/Query.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/query/QueryDef.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="1114" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test-query-json-select.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1776" selection-end="1863" vertical-scroll-proportion="0.0">
+        <state line="54" column="2" selection-start="1958" selection-end="2004" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-Model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1108" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -485,16 +505,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test-Query-object.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="28" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0">
+        <state line="24" column="0" selection-start="1115" selection-end="1147" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/query/Query.js">
+    <entry file="file://$PROJECT_DIR$/impl/query/QueryDefinition.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="77" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.7038044">
+        <state line="39" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="0" selection-start="4283" selection-end="4283" vertical-scroll-proportion="0.6360856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="48" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/query/QueryManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="20" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.4918478">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

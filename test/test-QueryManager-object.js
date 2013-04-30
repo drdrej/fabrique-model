@@ -23,45 +23,41 @@
  */
 
 var assert = require( "assert");
-var Query = require( "../impl/query/Query.js" );
-var QueryManager = require( "../impl/query/QueryManager.js" );
+var createQueryDef = require( "../impl/query/QueryDefinition.js" );
+var QueryManager = require( "../impl/query/QueryManager.js");
+
 
 describe(
-    'query/Query.js',
+    'query/QueryManager.js',
     function() {
 
         describe(
-            '#constructor()',
+            '#next()',
             function() {
                 it(
-                    'new Query( invalid queries-object ) - should throw an exception.',
+                    'QueryManager has one element',
 
                     function() {
+                        var queries = [];
 
-                            try {
-                               var query = new Query();
+                        var def = createQueryDef( "query1" , ".test > .hello" );
+                        assert.equal( true, (def != undefined) );
 
-                               assert.equal(query, undefined);
-                            } catch( x ) {
-                               assert.equal(true, true);
-                            };
-                });
+                        queries.push( def );
 
-                it(
-                    'new Query( queries-object ) - without Exception.',
 
-                    function() {
-                            var queries = {
-                                next : function() {
+                        var manager = new QueryManager( queries );
+                        assert.equal( true, (manager != undefined));
 
-                                }
-                            };
+                        var first = manager.next();
+                        assert.equal( true, (first != undefined));
+                        assert.equal( "query1", first.name );
+                        assert.equal( ".test > .hello", first.ql );
 
-                            var query = new Query( queries );
+                        var noMore = manager.next();
+                        assert.equal( false, noMore );
 
-                            assert.equal(true, (query != undefined) );
-                            assert.equal(true, (query.queries != undefined) );
-                });
-         });
+
+                    });
+            });
     });
-
