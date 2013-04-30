@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/query/QueryManager.js" afterPath="$PROJECT_DIR$/impl/query/QueryManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-QueryManager-object.js" afterPath="$PROJECT_DIR$/test/test-QueryManager-object.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="fabrique-model.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367331398805" ignored="false" />
+    <file path="/Dummy.txt" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367336685606" ignored="false" />
     <file path="/index.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367266860970" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-log/index.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367267225426" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-log/package.json" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367268797702" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-log/README.md" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367267985913" ignored="false" />
-    <file path="/README.md" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367268680342" ignored="false" />
+    <file path="/README.md" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367337345034" ignored="false" />
     <file path="/query-render.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367271640815" ignored="false" />
     <file path="/test-query-render.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367270740364" ignored="false" />
     <file path="/query.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367272797788" ignored="false" />
@@ -24,6 +23,8 @@
     <file path="/QueryManager.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367336285845" ignored="false" />
     <file path="/test-QueryManager-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367336098337" ignored="false" />
     <file path="/QueryDefinition.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367334178323" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-txtdraft/README.md" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367337378703" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-txtdraft/package.json" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367337094733" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,54 +55,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="210" selection-end="376" vertical-scroll-proportion="0.3761468">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test-Query-object.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test-Query-object.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="24" column="0" selection-start="1115" selection-end="1147" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-QueryManager-object.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="39" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.74923545">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryManager.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/query/QueryManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="58" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryDefinition.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/query/QueryDefinition.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-Model.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-Model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="1108" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -127,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/test-query-render.js" />
         <option value="$PROJECT_DIR$/test/test-query-json-select.js" />
         <option value="$PROJECT_DIR$/impl/query/query-render.js" />
@@ -143,6 +108,7 @@
         <option value="$PROJECT_DIR$/impl/query/QueryDefinition.js" />
         <option value="$PROJECT_DIR$/impl/query/QueryManager.js" />
         <option value="$PROJECT_DIR$/test/test-QueryManager-object.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -254,6 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fabrique-txtdraft" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
   </component>
@@ -395,36 +362,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/test-QueryManager-object.js</url>
-          <line>80</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/test-QueryManager-object.js</url>
-          <line>66</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/test-QueryManager-object.js</url>
-          <line>74</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/impl/query/query-json-select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="1138" selection-end="1150" vertical-scroll-proportion="0.7259787">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-query-render.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="57" selection-start="1978" selection-end="1978" vertical-scroll-proportion="0.6174377">
@@ -478,18 +419,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/query/Query.js">
+    <entry file="file://$PROJECT_DIR$/test/test-query-json-select.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1114" vertical-scroll-proportion="0.0">
+        <state line="54" column="2" selection-start="1958" selection-end="2004" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-query-json-select.js">
+    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="2" selection-start="1958" selection-end="2004" vertical-scroll-proportion="0.0">
+        <state line="215" column="47" selection-start="4265" selection-end="4265" vertical-scroll-proportion="0.48012233">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="28" selection-start="3522" selection-end="3522" vertical-scroll-proportion="0.42813456">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/query/QueryManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="58" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.48929664">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -507,7 +464,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/query/QueryDefinition.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
+        <state line="39" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.6880734">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -523,28 +480,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
+    <entry file="file://$PROJECT_DIR$/impl/query/Query.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="47" selection-start="4265" selection-end="4265" vertical-scroll-proportion="0.48012233">
+        <state line="0" column="0" selection-start="0" selection-end="1114" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="210" selection-end="376" vertical-scroll-proportion="0.3761468">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/query/QueryManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="58" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="39" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.74923545">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
