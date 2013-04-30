@@ -22,38 +22,46 @@
 
  */
 
-var assert = require("assert");
-var render = require( "../impl/query/query-render.js" );
-
+var assert = require( "assert");
+var Query = require( "../impl/query/Query.js" );
 
 describe(
-    'query-render.js',
-
+    'query/Query.js',
     function() {
+
         describe(
-            '#render()',
+            '#constructor()',
             function() {
                 it(
-                    'no params to render, context is empty.',
+                    'new Query( invalid queries-object ) - should throw an exception.',
 
                     function() {
-                        var queryQL = ".test > .hello";
-                        var rendered = render( queryQL, {});
 
-                        assert.equal( queryQL, rendered );
-                });
+                            try {
+                               var query = new Query();
 
-                it( 'render with one parameter in context.', function() {
-                    var queryQL = ".test > .{{params.value1}}";
-                    var rendered = render( queryQL, {
-                            params : {
-                                value1 : "TESTVALUE"
-                            }
-                        }
-                    );
+                               assert.equal(query, undefined);
+                            } catch( x ) {
+                               assert.equal(true, true);
+                            };
+                    });
 
-                    console.log( "result-query: " + rendered );
-                    assert.equal( ".test > .TESTVALUE", rendered );
-                });
+                it(
+                    'new Query( queries-object ) - without Exception.',
+
+                    function() {
+                            var queries = {
+                                next : function() {
+
+                                }
+                            };
+
+                            var query = new Query( queries );
+
+                            assert.equal(true, (query != undefined) );
+                            assert.equal(true, (query.queries != undefined) );
+
+                    });
             });
     });
+

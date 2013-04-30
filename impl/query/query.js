@@ -22,33 +22,111 @@
 
  */
 
-function query( queries, idx, ctx, callback ) {
-    if( idx === queries.length ) {
-        var params = combine(ctx.stack);
+var L = require("fabrique-log").logger;
 
-        // exec task
-        callback( params );
+/**
+ *
+ * @param queries array of query-definitions.
+ * @constructor
+ * @public
+ */
+function Query( queries ) {
+    if ( !this.isQueriesValid(queries) ) {
+        L.warn( "[INIT:query/Query.js] couldn't initialize Query-object." );
+        L.value( "file", __filename );
+
         return;
     }
 
-    var query = queries[idx];
-    var result = use(query, ctx);
+    /**
+     * @private
+     * @type {QueryDefManager}
+     */
+    this.queries = queries;
+};
 
-    if( result === false ) {
-        LOGGER.warn( "query : " + query + " // idx: " + idx );
+/**
+ * this method is used to find results for a Query.
+ * a Query-Object should implements some callback-bunfctions
+ *
+ * @public
+ * @param success must be a function.
+ *
+ * @return undefined
+ */
+Query.prototype.find = function (success) {
+    var query = this.queries.next();
 
-        return; // no callback;
+    var hasNoMoreQueries = (!query);
+    if (hasNoMoreQueries) {
+        this.complete(success);
+        return;
     }
 
-    for( i in result ) {
+    var result = this.execute(query);
+    if (result === false)
+        return;
+
+    for (i in result) {
         var selected = result[i];
 
-        // update  context with new result
-        ctx[ idx ] = selected;
+        this.handleSelectionStep(selected);
+    }
 
-        query( queries, (idx+1), ctx, callback );
-
-        // reset scope.
-        ctx[idx] = null;
-    };
+    this.cleanup();
 };
+
+// ##################################################
+// ##            private elements                  ##
+// ##################################################
+
+Query.prototype.isQueriesValid = function( queries ) {
+    L.value( "queries", queries );
+
+    if( queries == undefined
+          || queries == null
+          || queries == false ) {
+        L.error( "Parameter:queries is MULL.");
+        return false;
+    };
+
+    if( typeof(queries) != "object" ) {
+        L.error( "Parameter:queries is NOT OBJECT.");
+        return false;
+    }
+
+    var typeOfNext = typeof(queries.next);
+    if( typeOfNext != "function" ) {
+        L.error( "Parameter:queries has no function next().");
+        return false;
+    }
+
+    return true;
+}
+
+/**
+ * this method will be called before a query-handling-step is ready.
+ */
+Query.prototype.cleanup = function () {
+    ;
+};
+
+/**
+ * use selected-result to store it in the exec-stack
+ * and resolve the next query, if it's possible.
+ *
+ * @param selected
+ */
+Query.prototype.handleSelectionStep = function (selected) {
+
+};
+
+/**
+ * @param query Query-Definition, never NULL.
+ */
+Query.prototype.execute = function (query) {
+
+};
+
+
+module.exports = Query;

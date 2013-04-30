@@ -11,5 +11,3 @@ to work with models.
 ## License
 MIT
 
-
-var template = Handlebars.compile(source);

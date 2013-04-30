@@ -22,38 +22,12 @@
 
  */
 
-var assert = require("assert");
-var render = require( "../impl/query/query-render.js" );
 
 
-describe(
-    'query-render.js',
 
-    function() {
-        describe(
-            '#render()',
-            function() {
-                it(
-                    'no params to render, context is empty.',
+module.exports = function callByResult( stack, callback ) {
+    var params = combine( stack );
 
-                    function() {
-                        var queryQL = ".test > .hello";
-                        var rendered = render( queryQL, {});
-
-                        assert.equal( queryQL, rendered );
-                });
-
-                it( 'render with one parameter in context.', function() {
-                    var queryQL = ".test > .{{params.value1}}";
-                    var rendered = render( queryQL, {
-                            params : {
-                                value1 : "TESTVALUE"
-                            }
-                        }
-                    );
-
-                    console.log( "result-query: " + rendered );
-                    assert.equal( ".test > .TESTVALUE", rendered );
-                });
-            });
-    });
+    // exec task
+    callback( params );
+};

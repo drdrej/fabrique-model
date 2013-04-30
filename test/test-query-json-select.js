@@ -23,7 +23,6 @@
  */
 
 var assert = require("assert");
-// var routes = require("../static-routes.js");
 var S = require('string');
 var select = require("../impl/query/query-json-select.js");
 

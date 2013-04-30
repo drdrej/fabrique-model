@@ -24,11 +24,13 @@
 
 
 var LOGGER = require( "fabrique-log" ).logger;
+var Handlebars = require( "handlebars" );
 
 /**
  * use mu2-engine to parse templates.
  */
 // var mu = require("mu2");
+
 
 
 /**
@@ -37,21 +39,14 @@ var LOGGER = require( "fabrique-log" ).logger;
 module.exports = function render( tmpl, ctx ) {
     LOGGER.log("render query: " + tmpl);
 
-    var parsed = mu.compileText( false, tmpl );
+    var template = Handlebars.compile( tmpl );
 
-    if( parsed ) {
-        var out = mu.render(parsed, ctx );
-        return out;
+    if( template && typeof( template ) == 'function') {
+        LOGGER.success( "query created:" );
+        LOGGER.value
+        return template( ctx );
     }
 
     LOGGER.warn( "couldn't create rendered query. for passed query-template: " + tmpl );
-    return false;
-
-
-//  var inStr = mu.compileAndRender(this.params.template, this);
-//	var outStr = fs.createWriteStream(toFile);
-//
-//	inStr.pipe(outStr);
-
-    // return tmpl;
+    return tmpl;
 };
