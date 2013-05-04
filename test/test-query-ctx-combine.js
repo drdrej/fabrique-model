@@ -24,20 +24,46 @@
 
 
 var assert = require( "assert");
-var Query = require( "../impl/query/Query.js" );
+var createCtx = require( "../impl/query/query-ctx.js" );
 
 
 describe(
-    'query/Query.js.js',
+    'query/query-ctx.js',
     function() {
 
         describe(
-            '#find( queryies, onModel )',
+            '#create( ctx, queries, callback )',
             function() {
                 it(
-                    '.app > .name && .app > .desc',
+                    'prepare context, call combine for passed elements.',
                     function() {
+                         var ctx = {};
+                         var successful = false;
+                         var result = {
 
+                         };
+
+                         var queries = [
+                             {
+                                 name : "param1",
+                                 query : ".app > .name",
+                                 value : "default-value"
+                             }
+                         ];
+
+                         var queryCtx = createCtx( ctx, queries, function( params ) {
+                             successful = true;
+                             result.params = params;
+                         });
+
+                        var params = ctx.use();
+
+                        assert.equal(params.param1, undefined);
+
+                        var element1 = { id : 1 };
+                        ctx.combine( [element1] );
+
+                        assert.equal( 1, result.params.param1.id );
                     });
 
         });
