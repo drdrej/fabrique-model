@@ -22,45 +22,24 @@
 
  */
 
+
 var assert = require( "assert");
 var Query = require( "../impl/query/Query.js" );
 
+
 describe(
-    'query/Query.js',
+    'query/Query.js.js',
     function() {
 
         describe(
-            '#constructor()',
+            '#find( queryies, onModel )',
             function() {
                 it(
-                    'new Query( invalid queries-object ) - should throw an exception.',
-
+                    '.app > .name && .app > .desc',
                     function() {
 
-                            try {
-                               var query = new Query(null, {});
+                    });
 
-                               assert.equal(query, undefined);
-                            } catch( x ) {
-                               assert.equal(true, true);
-                            };
-                });
+        });
 
-                it(
-                    'new Query( queries-object ) - without Exception.',
-
-                    function() {
-                            var queries = {
-                                next : function() {
-
-                                }
-                            };
-
-                            var query = new Query( queries, {} );
-
-                            assert.equal(true, (query != undefined) );
-                            assert.equal(true, (query.queries != undefined) );
-                });
-         });
-    });
-
+});

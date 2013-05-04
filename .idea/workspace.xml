@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/query/query-ctx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/query/query-reduce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-Query-find.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-Query-object.js" afterPath="$PROJECT_DIR$/test/test-Query-object.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -26,6 +29,8 @@
     <file path="/QueryDefinition.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367334178323" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-txtdraft/README.md" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367337378703" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-txtdraft/package.json" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367337094733" ignored="false" />
+    <file path="/query-reduce.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367674508070" ignored="false" />
+    <file path="/query-ctx.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367675956856" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +59,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-QueryManager-object.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="28" selection-start="3522" selection-end="3522" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test-query-render.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test-query-render.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-Query-object.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test-Query-object.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test-Query-object.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="62" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.6975089">
+            <state line="26" column="63" selection-start="1197" selection-end="1197" vertical-scroll-proportion="-8.84">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -87,13 +81,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-query-json-select.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-query-json-select.js">
+      <file leaf-file-name="test-Query-find.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test-Query-find.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="2" selection-start="1958" selection-end="2004" vertical-scroll-proportion="0.0">
+            <state line="39" column="25" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query-reduce.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/impl/query/query-reduce.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="2" selection-start="4" selection-end="4" vertical-scroll-proportion="0.06049822">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query-ctx.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/query/query-ctx.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="0" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,9 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/test-query-render.js" />
-        <option value="$PROJECT_DIR$/test/test-query-json-select.js" />
-        <option value="$PROJECT_DIR$/impl/query/query-render.js" />
         <option value="$PROJECT_DIR$/impl/query/query-cal-by-result.js" />
         <option value="$PROJECT_DIR$/impl/query/query-call-by-result.js" />
         <option value="$PROJECT_DIR$/impl/query/query-use.js" />
@@ -143,6 +152,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/impl/query/Query.js" />
         <option value="$PROJECT_DIR$/test/test-Query-object.js" />
+        <option value="$PROJECT_DIR$/test/test-Query-find.js" />
+        <option value="$PROJECT_DIR$/impl/query/query-ctx.js" />
+        <option value="$PROJECT_DIR$/impl/query/query-reduce.js" />
       </list>
     </option>
   </component>
@@ -400,21 +412,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/impl/query/query-call-by-result.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.69572955" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/fabrique-log/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="41" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/fabrique-log/impl/log/Console.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/query/query-render.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="28" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.03202847">
@@ -436,21 +433,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="58" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.48929664">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-Model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1108" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/query/QueryDefinition.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.6880734">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -487,9 +479,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-Model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1108" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-query-json-select.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="2" selection-start="1958" selection-end="2004" vertical-scroll-proportion="0.0">
+        <state line="29" column="42" selection-start="1236" selection-end="1465" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-Query-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="63" selection-start="1197" selection-end="1197" vertical-scroll-proportion="-8.84">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-Query-find.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="25" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -505,12 +524,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-Query-object.js">
+    <entry file="file://$PROJECT_DIR$/impl/query/query-ctx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="62" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.6975089">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="47" column="0" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/query/query-reduce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="4" selection-end="4" vertical-scroll-proportion="0.06049822">
+          <folding />
         </state>
       </provider>
     </entry>
