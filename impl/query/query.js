@@ -23,6 +23,7 @@
  */
 
 var L = require("fabrique-log").logger;
+var createCtx = require( "./query-ctx.js");
 
 /**
  *

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\query\query-reduce.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\test\test-Query-find.js" afterPath="$PROJECT_DIR$/test/test-query-ctx-combine.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/query/query-ctx.js" afterPath="$PROJECT_DIR$/impl/query/query-ctx.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-query-ctx-combine.js" afterPath="$PROJECT_DIR$/test/test-query-ctx-combine.js" />
     </list>
     <ignored path="fabrique-model.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,17 +18,17 @@
     <file path="/query.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367272797788" ignored="false" />
     <file path="/query-call-by-result.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367272075337" ignored="false" />
     <file path="/query-use.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367272465686" ignored="false" />
-    <file path="/Query.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367672502877" ignored="false" />
+    <file path="/Query.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367682181363" ignored="false" />
     <file path="/test-Query-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367672681174" ignored="false" />
-    <file path="/fragment.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367681884496" ignored="false" />
+    <file path="/fragment.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367683538799" ignored="false" />
     <file path="/QueryManager.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367336285845" ignored="false" />
     <file path="/test-QueryManager-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367336098337" ignored="false" />
     <file path="/QueryDefinition.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367334178323" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-txtdraft/README.md" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367337378703" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-txtdraft/package.json" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367337094733" ignored="false" />
     <file path="/query-reduce.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367674508070" ignored="false" />
-    <file path="/query-ctx.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367682032817" ignored="false" />
-    <file path="/test-query-ctx-combine.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367681196751" ignored="false" />
+    <file path="/query-ctx.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367683254229" ignored="false" />
+    <file path="/test-query-ctx-combine.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367683376041" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-query-ctx-combine.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test-query-ctx-combine.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test-query-ctx-combine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="65" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.0">
+            <state line="103" column="0" selection-start="3668" selection-end="3668" vertical-scroll-proportion="0.32994923">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -92,11 +90,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query-ctx.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="query-ctx.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/query/query-ctx.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="17" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.11564626">
-              <folding />
+            <state line="117" column="0" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +104,7 @@
       <file leaf-file-name="Query.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/query/Query.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="25" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0">
+            <state line="84" column="22" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -140,10 +140,10 @@
         <option value="$PROJECT_DIR$/impl/query/QueryManager.js" />
         <option value="$PROJECT_DIR$/test/test-QueryManager-object.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/impl/query/Query.js" />
         <option value="$PROJECT_DIR$/test/test-Query-object.js" />
         <option value="$PROJECT_DIR$/test/test-Query-find.js" />
         <option value="$PROJECT_DIR$/impl/query/query-reduce.js" />
+        <option value="$PROJECT_DIR$/impl/query/Query.js" />
         <option value="$PROJECT_DIR$/test/test-query-ctx-combine.js" />
         <option value="$PROJECT_DIR$/impl/query/query-ctx.js" />
       </list>
@@ -328,13 +328,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1368" height="732" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981302" sideWeight="0.3792517" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6207483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6207483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -409,17 +409,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/query/query-ctx.js</url>
-          <line>32</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/test/test-query-ctx-combine.js</url>
+          <line>83</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/query/query-ctx.js</url>
-          <line>78</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/test/test-query-ctx-combine.js</url>
+          <line>100</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -494,15 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/query/Query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="25" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-query-json-select.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="42" selection-start="1236" selection-end="1465" vertical-scroll-proportion="0.03024911">
@@ -535,9 +526,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-query-ctx-combine.js">
+    <entry file="file://$PROJECT_DIR$/impl/query/Query.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="65" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.0">
+        <state line="84" column="22" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -546,8 +537,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/query/query-ctx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="17" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.11564626">
-          <folding />
+        <state line="117" column="0" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-query-ctx-combine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="0" selection-start="3668" selection-end="3668" vertical-scroll-proportion="0.32994923">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

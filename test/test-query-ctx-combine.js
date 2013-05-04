@@ -23,49 +23,85 @@
  */
 
 
-var assert = require( "assert");
-var createCtx = require( "../impl/query/query-ctx.js" );
+var assert = require("assert");
+var createCtx = require("../impl/query/query-ctx.js");
 
 
 describe(
     'query/query-ctx.js',
-    function() {
+    function () {
 
         describe(
             '#create( ctx, queries, callback )',
-            function() {
+            function () {
                 it(
                     'prepare context, call combine for passed elements.',
-                    function() {
-                         var ctx = {};
-                         var successful = false;
-                         var result = {
+                    function () {
+                        var ctx = {};
+                        var successful = false;
+                        var result = {
 
-                         };
+                        };
 
-                         var queries = [
-                             {
-                                 name : "param1",
-                                 query : ".app > .name",
-                                 value : "default-value"
-                             }
-                         ];
+                        var queries = [
+                            {
+                                name: "param1",
+                                query: ".app > .name",
+                                value: "default-value"
+                            }
+                        ];
 
-                         var queryCtx = createCtx( ctx, queries, function( params ) {
-                             successful = true;
-                             result.params = params;
-                         });
+                        var queryCtx = createCtx(ctx, queries, function (params) {
+                            successful = true;
+                            result.params = params;
+                        });
 
                         var params = ctx.use();
 
                         assert.equal(params.param1, undefined);
 
-                        var element1 = { id : 1 };
-                        ctx.combine( [element1] );
+                        var element1 = { id: 1 };
+                        ctx.combine([element1]);
 
-                        assert.equal( 1, result.params.param1.id );
+                        assert.equal(1, result.params.param1.id);
                     });
 
-        });
 
-});
+                it(
+                    'prepare context, call consume() for passed elements.',
+                    function () {
+                        var ctx = {};
+                        var successful = false;
+                        var result = {};
+
+                        var queries = [
+                            {
+                                name: "param1",
+                                query: ".app > .name",
+                                value: "default-value",
+
+                                select: function () {
+                                    var values = [];
+                                    values.push({ id: 1 });
+
+                                    return values;
+                                }
+                            }
+                        ];
+
+                        var queryCtx = createCtx(ctx, queries, function (params) {
+                            successful = true;
+                            result.params = params;
+                        });
+
+                        var params = ctx.use();
+
+                        assert.equal(params.param1, undefined);
+
+                        ctx.consume();
+
+                        assert.equal(1, result.params.param1.id);
+                    });
+            });
+
+    });
