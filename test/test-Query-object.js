@@ -39,7 +39,7 @@ describe(
                     function() {
 
                             try {
-                               var query = new Query();
+                               var query = new Query(null, {});
 
                                assert.equal(query, undefined);
                             } catch( x ) {
@@ -57,7 +57,7 @@ describe(
                                 }
                             };
 
-                            var query = new Query( queries );
+                            var query = new Query( queries, {} );
 
                             assert.equal(true, (query != undefined) );
                             assert.equal(true, (query.queries != undefined) );

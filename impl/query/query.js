@@ -27,12 +27,14 @@ var L = require("fabrique-log").logger;
 /**
  *
  * @param queries array of query-definitions.
+ * @param models map of models map<key, model>.
+ *
  * @constructor
  * @public
  */
-function Query( queries ) {
+function Query( queries, models ) {
     if ( !this.isQueriesValid(queries) ) {
-        L.warn( "[INIT:query/Query.js] couldn't initialize Query-object." );
+        L.warn( "INIT:query/Query.js couldn't initialize Query-object." );
         L.value( "file", __filename );
 
         return;
@@ -43,6 +45,13 @@ function Query( queries ) {
      * @type {QueryDefManager}
      */
     this.queries = queries;
+
+    if( !models ) {
+        L.warn( "-- INIT:Query: " + __filename + ". Missing parameter:models.");
+        throw new Error( "Parameter:models empty." );
+    }
+
+    this.models = models;
 };
 
 /**
