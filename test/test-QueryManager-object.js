@@ -23,7 +23,7 @@
  */
 
 var assert = require( "assert");
-var createQueryDef = require( "../impl/query/QueryDefinition.js" );
+var createQueryDef = require( "../impl/query/query-def.js" );
 var QueryManager = require( "../impl/query/QueryManager.js");
 
 
@@ -52,7 +52,7 @@ describe(
                         var first = manager.next();
                         assert.equal( true, (first != undefined));
                         assert.equal( "query1", first.name );
-                        assert.equal( ".test > .hello", first.ql );
+                        assert.equal( ".test > .hello", first.query );
 
                         var noMore = manager.next();
                         assert.equal( false, noMore );
@@ -75,13 +75,13 @@ describe(
                         var first = manager.next();
                         assert.equal( true, (first != undefined));
                         assert.equal( "query1", first.name );
-                        assert.equal( ".test > .hello", first.ql );
+                        assert.equal( ".test > .hello", first.query );
                         assert.equal( 1, manager.cursor );
 
                         var second = manager.next();
                         assert.equal( true, (second != undefined));
                         assert.equal( "query2", second.name );
-                        assert.equal( ".test > .hello2", second.ql );
+                        assert.equal( ".test > .hello2", second.query );
                         assert.equal( 2, manager.cursor );
 
                         var noMore = manager.next();

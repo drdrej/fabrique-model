@@ -26,12 +26,6 @@
 var LOGGER = require( "fabrique-log" ).logger;
 var Handlebars = require( "handlebars" );
 
-/**
- * use mu2-engine to parse templates.
- */
-// var mu = require("mu2");
-
-
 
 /**
  * rendet query-templates.

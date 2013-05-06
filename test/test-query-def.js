@@ -23,18 +23,34 @@
  */
 
 
-function QueryDefinition() {
-     this.name = null;
-     this.ql = null;
-};
+var assert = require("assert");
+var createQuery = require( "../impl/query/query-def.js" );
 
 
+describe(
+    'query-def.js',
 
-module.exports = function create( name, query ) {
-     var def = new QueryDefinition();
+    function() {
+        describe(
+            '#select()',
+            function() {
+                it(
+                    'create elements and select by query.',
 
-     def.name = name;
-     def.ql = query;
+                    function() {
+                        var queryQL = ".test > .hello";
+                        var query = createQuery( "test", queryQL );
 
-     return def;
-};
+                        var selected = query.select( {
+                            "test" : {
+                                "hello": 1
+                            }
+                        });
+
+                        assert.equal( true, (selected != undefined));
+                        console.log( "selected:" + selected );
+
+                        // assert.equal( selected, [ 1 ] );
+                    });
+            });
+    });
