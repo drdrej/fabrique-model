@@ -102,6 +102,58 @@ describe(
 
                         assert.equal(1, result.params.param1.id);
                     });
+
+
+
+                it(
+                    'prepare context, call consume() for 2 queries  with 1 result for every query.',
+                    function () {
+                        var ctx = {};
+                        var successful = false;
+                        var result = {};
+
+                        var queries = [
+                            {
+                                name: "param1",
+                                query: ".app > .name",
+                                value: "default-value",
+
+                                select: function () {
+                                    var values = [];
+                                    values.push({ id: 1 });
+
+                                    return values;
+                                }
+                            },
+
+                            {
+                                name: "param2",
+                                query: ".app > .name2",
+                                value: "default-value",
+
+                                select: function () {
+                                    var values = [];
+                                    values.push({ id: 2 });
+
+                                    return values;
+                                }
+                            }
+                        ];
+
+                        var queryCtx = createCtx(ctx, queries, function (params) {
+                            successful = true;
+                            result.params = params;
+                        });
+
+                        var params = ctx.use();
+
+                        assert.equal(params.param1, undefined);
+
+                        ctx.consume();
+
+                        assert.equal(1, result.params.param1.id);
+                        assert.equal(2, result.params.param2.id);
+                    });
             });
 
     });

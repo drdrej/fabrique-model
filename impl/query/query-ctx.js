@@ -28,24 +28,24 @@
  * @param ctx context-object, never NULL.
  * @param found is a found function and will be called if one object will be found. never NULL.
  */
-module.exports = function create( ctx, queries, found ) {
+module.exports = function create(ctx, queries, found) {
     ctx.queries = queries;
 
     ctx.stack = {
-       depth : -1,
-       params : {}
+        depth: -1,
+        params: {}
     };
 
     ctx.found = found;
 
-    ctx.append = function( element ) {
+    ctx.append = function (element) {
         this.stack.depth++;
         var def = this.queries[ this.stack.depth ];
         this.stack.params[ def.name ] = element;
     };
 
-    ctx.backward = function() {
-        if( this.stack.depth < 0 )
+    ctx.backward = function () {
+        if (this.stack.depth < 0)
             return;
 
         var name = this.queries[ this.stack.depth ].name;
@@ -53,15 +53,28 @@ module.exports = function create( ctx, queries, found ) {
         this.stack.depth--;
     };
 
-    ctx.emit = function( element ) {
-       this.append( element );
+    /**
+     * next query to execute.
+     *
+     * @private
+     * @returns {*}
+     */
+    ctx.query = function () {
+        return this.queries[ this.stack.depth+1 ];
+    };
 
-       if( this.stack.depth === (this.queries.length - 1) ) {
-           // this.callback;
-           // fnc( this.stack.params );
-           var use = this.use();
-           this.found( use );
-       }
+    ctx.emit = function (element) {
+        this.append(element);
+        var foundEndpoint = (this.stack.depth === (this.queries.length - 1));
+
+        if ( foundEndpoint ) {
+            var use = this.use();
+            this.found(use);
+            this.backward();
+        } else {
+            ctx.step();
+            this.backward();
+        }
     };
 
     /**
@@ -69,52 +82,69 @@ module.exports = function create( ctx, queries, found ) {
      * @param ctx
      * @param selected
      */
-    ctx.emitAll = function( selected ) {
-        for( var idx in selected ) {
+    ctx.emitAll = function (selected) {
+        for (var idx in selected) {
             var name = idx + "";
-            if( !selected.hasOwnProperty( name ) )
+            if (!selected.hasOwnProperty(name))
                 continue;
 
             var element = selected[ idx ];
-            if( element == null || element == undefined )
+            if (element == null || element == undefined)
                 continue;
 
-            this.emit( element );
+            this.emit(element);
         }
     };
 
 
-    ctx.combine = function( selected ) {
-        if( selected == undefined )
+    ctx.combine = function (selected) {
+        if (selected == undefined)
             return;
 
-        if( !selected.length )
+        if (!selected.length)
             return;
 
-        if( selected.length < 1 )
+        if (selected.length < 1)
             return;
 
         // TODO: hier reduce-funktion zur Reduzierung der Werte aufrufen.
         // beispiel wenn nicht alle werte weiter gegeben werden
         this.emitAll(selected);
+
+
     };
 
-    ctx.use = function() {
-       return this.stack.params;
+    ctx.use = function () {
+        var rval = {};
+        var original = this.stack.params;
+
+        for( var idx in original ) {
+            var name = idx + "";
+            if ( !original.hasOwnProperty(name) )
+                continue;
+
+            rval[idx] = original[idx];
+        }
+
+        return rval;
+    };
+
+
+    ctx.step = function() {
+        var query = this.query();
+        var selected = query.select();
+        this.combine(selected);
     };
 
     /**
      * is a main method to use a context.
      * @public
      */
-    ctx.consume = function( ) {
-        if( !(this.queries.length && this.queries.length > 0) )
+    ctx.consume = function () {
+        if (!(this.queries.length && this.queries.length > 0))
             return;
 
-        var first = this.queries[ 0 ];
-        var selected = first.select();
-
-        this.combine( selected );
+        this.step();
     };
 
 };

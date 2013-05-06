@@ -20,14 +20,14 @@
     <file path="/query-use.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367272465686" ignored="false" />
     <file path="/Query.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367682181363" ignored="false" />
     <file path="/test-Query-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367672681174" ignored="false" />
-    <file path="/fragment.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367683538799" ignored="false" />
+    <file path="/fragment.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367719912627" ignored="false" />
     <file path="/QueryManager.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367336285845" ignored="false" />
     <file path="/test-QueryManager-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367336098337" ignored="false" />
     <file path="/QueryDefinition.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367334178323" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-txtdraft/README.md" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367337378703" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-txtdraft/package.json" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367337094733" ignored="false" />
     <file path="/query-reduce.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367674508070" ignored="false" />
-    <file path="/query-ctx.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367683254229" ignored="false" />
+    <file path="/query-ctx.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367832580639" ignored="false" />
     <file path="/test-query-ctx-combine.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367683376041" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-query-ctx-combine.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test-query-ctx-combine.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test-query-ctx-combine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="0" selection-start="3668" selection-end="3668" vertical-scroll-proportion="0.32994923">
+            <state line="145" column="0" selection-start="5177" selection-end="5177" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -90,13 +90,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query-ctx.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="query-ctx.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/impl/query/query-ctx.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="0" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.0">
+            <state line="118" column="12" selection-start="3290" selection-end="3290" vertical-scroll-proportion="1.1517857">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runnable.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="208" column="89" selection-start="4138" selection-end="4199" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -328,17 +337,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1368" height="732" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981302" sideWeight="0.3792517" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6207483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6194539" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -410,16 +419,21 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/test-query-ctx-combine.js</url>
-          <line>83</line>
-          <option name="timeStamp" value="20" />
+          <line>149</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/test-query-ctx-combine.js</url>
-          <line>100</line>
-          <option name="timeStamp" value="21" />
+          <line>153</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/test-query-ctx-combine.js</url>
+          <line>144</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -519,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="0" selection-start="4266" selection-end="4266" vertical-scroll-proportion="0.32994923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/query/Query.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="22" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0">
@@ -535,18 +542,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/query/query-ctx.js">
+    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="0" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.0">
+        <state line="208" column="89" selection-start="4138" selection-end="4199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-query-ctx-combine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="0" selection-start="5177" selection-end="5177" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-query-ctx-combine.js">
+    <entry file="file://$PROJECT_DIR$/impl/query/query-ctx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="3668" selection-end="3668" vertical-scroll-proportion="0.32994923">
+        <state line="118" column="12" selection-start="3290" selection-end="3290" vertical-scroll-proportion="1.1517857">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
