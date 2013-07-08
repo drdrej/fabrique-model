@@ -2,32 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\model\query-result-combine.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\model\query-use.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\query\query-call-by-result.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\query\query-use.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\model\queries-iterator.js" afterPath="$PROJECT_DIR$/test/test-query-def.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\query\QueryDefinition.js" afterPath="$PROJECT_DIR$/impl/query/query-def.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/tasks/path-resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/tasks/task-exec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-project-init.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-model\impl\query\Stack.js" afterPath="$PROJECT_DIR$/impl/project/project-init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/query/query-def.js" afterPath="$PROJECT_DIR$/impl/query/query-def.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/query/query-render.js" afterPath="$PROJECT_DIR$/impl/query/query-render.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-QueryManager-object.js" afterPath="$PROJECT_DIR$/test/test-QueryManager-object.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-query-def.js" afterPath="$PROJECT_DIR$/test/test-query-def.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-model.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367672191181" ignored="false" />
+    <file path="/Dummy.txt" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1373306985655" ignored="false" />
     <file path="/index.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367266860970" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-log/index.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367267225426" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-log/package.json" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367268797702" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-log/README.md" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367267985913" ignored="false" />
-    <file path="/README.md" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367337345034" ignored="false" />
-    <file path="/query-render.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367271640815" ignored="false" />
+    <file path="/README.md" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370879545157" ignored="false" />
+    <file path="/query-render.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370294385750" ignored="false" />
     <file path="/test-query-render.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367270740364" ignored="false" />
     <file path="/query.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367272797788" ignored="false" />
     <file path="/query-call-by-result.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367272075337" ignored="false" />
     <file path="/query-use.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367272465686" ignored="false" />
     <file path="/Query.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367682181363" ignored="false" />
     <file path="/test-Query-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367672681174" ignored="false" />
-    <file path="/fragment.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367856162049" ignored="false" />
+    <file path="/fragment.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367944321769" ignored="false" />
     <file path="/QueryManager.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367336285845" ignored="false" />
     <file path="/test-QueryManager-object.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367855832978" ignored="false" />
     <file path="/QueryDefinition.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367334178323" ignored="false" />
@@ -38,7 +37,62 @@
     <file path="/test-query-ctx-combine.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367683376041" ignored="false" />
     <file path="/query-def.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367856062314" ignored="false" />
     <file path="/a.dummy" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367855696213" ignored="false" />
-    <file path="/test-query-def.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367856196940" ignored="false" />
+    <file path="/test-query-def.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367944591578" ignored="false" />
+    <file path="/task-exec.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367945056411" ignored="false" />
+    <file path="/project-init.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367946124666" ignored="false" />
+    <file path="/path-resolve.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1367945326894" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/render.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1369847701688" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/render-cmd.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1369775414148" ignored="false" />
+    <file path="/render.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1369847698419" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/project.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370807517415" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/test/test-project-path.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1369949420195" ignored="false" />
+    <file path="/test-project-path.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1369949416390" ignored="false" />
+    <file path="/project.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370807260563" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/render.verify.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370100749374" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/package.json" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370880377084" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xhtml1-strict.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xsl" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/XMLSchema.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/xslt-schema.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xinclude.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xslt-1_0.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xslt-2_0.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xml.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/relaxng.rng" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/catalog.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/html5/xhtml5.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370687153589" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/render.exec.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370804194666" ignored="false" />
+    <file path="/render.exec.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370803158439" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/render-impl.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370804488918" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/test/test-render-impl.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370804590869" ignored="false" />
+    <file path="/test-render-impl.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370804535258" ignored="false" />
+    <file path="/render-impl.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370804488918" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/bin/fabrique-render" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370805068338" ignored="false" />
+    <file path="/fabrique-render" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370805068646" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/render.cli.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370808437807" ignored="false" />
+    <file path="/render.cli.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370874031319" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/load-model.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370807809865" ignored="false" />
+    <file path="/load-model.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370807611939" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/render-cli.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370876769414" ignored="false" />
+    <file path="/render-cli.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370876765048" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/project/resolve-path.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370872246338" ignored="false" />
+    <file path="/resolve-path.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370872143103" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/example/hello-world.txt.tmpl" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370872685606" ignored="false" />
+    <file path="/hello-world.txt.tmpl" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370872680395" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/render-cli-options.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370873456245" ignored="false" />
+    <file path="/render-cli-options.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370875058423" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/render-cli-arguments.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370875619650" ignored="false" />
+    <file path="/render-cli-arguments.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370875559057" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/example/hello-world.json.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370875138994" ignored="false" />
+    <file path="/hello-world.json.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370875130711" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/impl/project/load-model.js" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370876181940" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/example/hello-world.json" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370876163146" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-render/README.md" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370879629541" ignored="false" />
+    <file path="/package.json" changelist="99e3f03d-789a-4d43-9363-4cf6aaf2e8a5" time="1370878553990" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,110 +111,7 @@
     <favorites_list name="fabrique-model" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="query-def.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/query/query-def.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="23" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/fabrique-log/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="42" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Console.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/fabrique-log/impl/log/Console.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-QueryManager-object.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="64" selection-start="2183" selection-end="2183" vertical-scroll-proportion="-2.64">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-query-def.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-query-def.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="24" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task-collect-needs.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/model/task-collect-needs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exec-queries.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/model/exec-queries.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="27" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Model.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/impl/model/Model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="9" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.75714284">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-query-render.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-query-render.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="12" selection-start="1205" selection-end="2178" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-query-ctx-combine.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-query-ctx-combine.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="0" selection-end="1148" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -178,10 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/impl/query/Stack.js" />
-        <option value="$PROJECT_DIR$/impl/query/QueryDefManager.js" />
-        <option value="$PROJECT_DIR$/impl/query/QueryDef.js" />
-        <option value="$PROJECT_DIR$/impl/query/QueryDefinition.js" />
         <option value="$PROJECT_DIR$/impl/query/QueryManager.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/test-Query-object.js" />
@@ -190,10 +137,14 @@
         <option value="$PROJECT_DIR$/impl/query/Query.js" />
         <option value="$PROJECT_DIR$/test/test-query-ctx-combine.js" />
         <option value="$PROJECT_DIR$/impl/query/query-ctx.js" />
-        <option value="$PROJECT_DIR$/impl/query/query-render.js" />
         <option value="$PROJECT_DIR$/test/test-QueryManager-object.js" />
         <option value="$PROJECT_DIR$/impl/query/query-def.js" />
         <option value="$PROJECT_DIR$/test/test-query-def.js" />
+        <option value="$PROJECT_DIR$/impl/tasks/task-exec.js" />
+        <option value="$PROJECT_DIR$/impl/tasks/path-resolve.js" />
+        <option value="$PROJECT_DIR$/impl/project/project-init.js" />
+        <option value="$PROJECT_DIR$/test/test-project-init.js" />
+        <option value="$PROJECT_DIR$/impl/query/query-render.js" />
       </list>
     </option>
   </component>
@@ -294,6 +245,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -312,7 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="query" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,13 +288,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="Errors" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fabrique-txtdraft" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -396,11 +361,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JsTestDriver.test-query-def.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.mocha - test-Query-object.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.mocha - test-QueryManager-object.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.mocha - test-query-ctx-combine" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.mocha - test-query-def" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.mocha - test-Query-object.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.mocha - test-QueryManager-object.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.mocha - test-query-ctx-combine" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.mocha - test-query-def" />
+      <item index="4" class="java.lang.String" itemvalue="JsTestDriver.test-query-def.js" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -419,14 +384,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1368" height="732" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981302" sideWeight="0.47440273" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5255973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981302" sideWeight="0.4744898" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5255102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -434,6 +398,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -465,7 +430,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -521,144 +486,101 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/test-query-def.js</url>
-          <line>50</line>
+          <line>53</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/test-query-def.js</url>
+          <line>51</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/impl/query/Query.js">
+    <entry file="file://$PROJECT_DIR$/impl/model/task-collect-needs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="6" column="14" selection-start="86" selection-end="86" vertical-scroll-proportion="0.18149467" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-query-ctx-combine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="0" selection-end="1148" vertical-scroll-proportion="0.03024911">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="3" selection-start="4138" selection-end="4199" vertical-scroll-proportion="0.0">
+        <state line="213" column="0" selection-start="4200" selection-end="4200" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-query-def.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="60" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.6640316">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/query/query-ctx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="0" selection-start="2844" selection-end="2844" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/query/query-render.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/query/query-json-select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="37" selection-start="1662" selection-end="1662" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/query/QueryManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.33236995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-query-ctx-combine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="0" selection-end="1148" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-query-render.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="1205" selection-end="2178" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test-QueryManager-object.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="64" selection-start="2183" selection-end="2183" vertical-scroll-proportion="-2.64">
-          <folding />
-        </state>
+        <state line="58" column="65" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.6352313" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/fabrique-log/index.js">
+    <entry file="file://$PROJECT_DIR$/impl/query/query-json-select.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="36" column="0" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.4252669" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/fabrique-log/impl/log/Console.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="64" column="0" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.03024911" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/fabrique-log/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="42" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.03024911" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/query/query-def.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="23" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="65" column="47" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.5160142" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-query-def.js">
+    <entry file="file://$PROJECT_DIR$/impl/query/QueryManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="24" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="33" column="13" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.03024911" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/model/task-collect-needs.js">
+    <entry file="file://$PROJECT_DIR$/test/test-project-init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="6" selection-start="160" selection-end="160" vertical-scroll-proportion="0.03024911" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/model/exec-queries.js">
+    <entry file="file://$PROJECT_DIR$/test/test-query-render.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="1113" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/model/Model.js">
+    <entry file="file://$PROJECT_DIR$/impl/query/query-render.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="9" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.75714284">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="1113" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/project/project-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="888" selection-end="888" vertical-scroll-proportion="0.7875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/tasks/path-resolve.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="40" selection-start="43" selection-end="43" vertical-scroll-proportion="0.09107143" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/tasks/task-exec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
   </component>

@@ -31,16 +31,15 @@ var Handlebars = require( "handlebars" );
  * rendet query-templates.
  */
 module.exports = function render( tmpl, ctx ) {
-    LOGGER.log("render query: " + tmpl);
+    LOGGER.log( "render: " + tmpl);
 
     var template = Handlebars.compile( tmpl );
 
     if( template && typeof( template ) == 'function') {
-        LOGGER.success( "query created:" );
-        LOGGER.value
+        LOGGER.success( "template compiled:" +  tmpl );
         return template( ctx );
     }
 
-    LOGGER.warn( "couldn't create rendered query. for passed query-template: " + tmpl );
+    LOGGER.warn( "couldn't render template:" + tmpl );
     return tmpl;
 };

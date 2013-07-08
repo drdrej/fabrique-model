@@ -65,7 +65,7 @@ module.exports = function create( name, query ) {
           var queryStr = this.query;
 
           if( onModel == undefined
-              || typeof( onModel ) != "Object" ) {
+              || typeof( onModel ) != "object" ) {
               L.warn( "couldn't exec {query = " + queryStr
                   + " }passed model is empty." );
 

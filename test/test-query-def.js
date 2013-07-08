@@ -41,16 +41,17 @@ describe(
                         var queryQL = ".test > .hello";
                         var query = createQuery( "test", queryQL );
 
-                        var selected = query.select( {
+                        var model = {
                             "test" : {
                                 "hello": 1
                             }
-                        });
+                        };
+
+                        var selected = query.select( model );
 
                         assert.equal( true, (selected != undefined));
-                        console.log( "selected:" + selected );
-
-                        // assert.equal( selected, [ 1 ] );
+                        assert.equal( 1, selected.length );
+                        assert.equal( 1, selected[0] );
                     });
             });
     });
